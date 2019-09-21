@@ -27,7 +27,7 @@
 {
   text-align: center;
   margin: 0 auto;
-  width:40%;
+  width:50%;
   background-color: white;
   border-radius: 1%;
   
@@ -39,6 +39,10 @@
   font-size:20px;
   font-weight: 400;
 
+}
+#quotewords 
+{
+  font-size: 40px;
 }
 
 #author-words 
@@ -80,16 +84,20 @@
 @media (max-width: 700px) {
   #quotewords
   {
-    font-size: 20px;
+    font-size: 19px;
   }
   #author-words 
   {
-    font-size:20px;
+    font-size:19px;
   }
   #btn 
   {
     font-size: 13px;
     margin-top: 13px;
     padding: 3px;
+  }
+  #middle 
+  {
+    width:60%;
   }
 }
