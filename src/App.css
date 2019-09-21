@@ -77,14 +77,14 @@
   100% { transform: translateY(-20px); }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   #quotewords
   {
-    font-size: 13px;
+    font-size: 20px;
   }
   #author-words 
   {
-    font-size:13px;
+    font-size:20px;
   }
   #btn 
   {
