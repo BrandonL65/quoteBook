@@ -80,16 +80,16 @@
 @media (max-width: 800px) {
   #quotewords
   {
-    font-size: 10px;
+    font-size: 13px;
   }
   #author-words 
   {
-    font-size:10px;
+    font-size:13px;
   }
   #btn 
   {
-    font-size: 12px;
-    margin-top: 12px;
+    font-size: 13px;
+    margin-top: 13px;
     padding: 3px;
   }
 }
