@@ -40,6 +40,7 @@
   font-weight: 400;
 
 }
+
 #author-words 
 {
   font-weight: 300;
@@ -48,8 +49,6 @@
 
 #btn 
 {
-  bottom: 10px;
-  right: 10px;
   margin-top:30px;
   margin-bottom:11px;
   padding: 9px;
@@ -76,4 +75,21 @@
 @keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
+}
+
+@media (max-width: 800px) {
+  #quotewords
+  {
+    font-size: 10px;
+  }
+  #author-words 
+  {
+    font-size:10px;
+  }
+  #btn 
+  {
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 3px;
+  }
 }

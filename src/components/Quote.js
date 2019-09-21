@@ -6,7 +6,7 @@ export default class Quote extends React.Component
   {
         return (
             <div id = "quote" >
-                <h1 class = "animate" style = {{color: this.props.bgcolor}}>"{this.props.quote}"</h1>
+                <h1 id = "quotewords" className = "animate" style = {{color: this.props.bgcolor}}>"{this.props.quote}"</h1>
             </div>
         )
   }
