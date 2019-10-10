@@ -6,7 +6,7 @@ export default class Author extends React.Component
     {
         return (
             <div id = "author">
-                <h2 class = "animate" id = "author-words">~ <span style = {{color: this.props.bgcolor}}>{this.props.author}</span> </h2>
+                <h2 className = "animateAuthor" id = "author-words">~ <span style = {{color: this.props.bgcolor}}>{this.props.author}</span> </h2>
             </div>
 
         )

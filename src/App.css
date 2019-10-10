@@ -45,10 +45,10 @@
   font-size: 40px;
 }
 
-#author-words 
+.animateAuthor
 {
   font-weight: 300;
-
+	animation: fadein 5s;
 }
 
 #btn 
@@ -71,6 +71,7 @@
 }
 .creditsDiv {
 	height: 50px;
+	animation: fadein 5s;
 }
 @keyframes fadein {
   from { opacity: 0; }
