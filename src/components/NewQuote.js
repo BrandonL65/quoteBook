@@ -3,14 +3,10 @@ import React from "react"
 
 export default class NewQuote extends React.Component
 {
-
-
     handleClick = () => {
         this.props.newquote();
         this.props.randomcolor();
     }
-
-
     render() 
     {
         return(

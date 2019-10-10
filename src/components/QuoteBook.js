@@ -23,16 +23,27 @@ export default class QuoteBook extends React.Component
       color: randomColor,
       darkColor: darkOrNot
     })
-  }
+	}
+	
+	resetAnimation = () => {
+		let random = Math.floor(Math.random()*900);
+		return random;
+
+	}
+  
+
   render()
   {
-
     return (
-      <div id = "page" style = {{backgroundColor: this.state.color}}>
+      <div id = "page" style = {{backgroundColor: this.state.color,}}>
         <h1 id = "title" style = {this.state.darkColor === false ? {color: "black"} : {color: "white"}}>Quote Book</h1>
-        <Middle class = "animate" bgcolor = {this.state.color} randomcolor = {this.randomColor} darkColor = {this.state.darkColor}/>
-        <p id = "myName" style = {this.state.darkColor === false ? {color: "black"} : {color: "white"}}>made with <span>❤️</span> by Brandon L.</p>
+        <Middle key = {this.resetAnimation()}class = "animate" bgcolor = {this.state.color} randomcolor = {this.randomColor} darkColor = {this.state.darkColor}/>
+        <div className = "creditsDiv" style = {{backgroundColor: this.state.color}}>
+				<p id = "myName" style = {this.state.darkColor === false ? {color: "black"} : {color: "white"}}>made with <span>❤️</span> by Brandon L.</p>
+
+				</div>
       </div>
     )
   }
 }
+
