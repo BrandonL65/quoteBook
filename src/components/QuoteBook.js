@@ -37,7 +37,7 @@ export default class QuoteBook extends React.Component
     return (
       <div id = "page" style = {{backgroundColor: this.state.color,}}>
         <h1 id = "title" style = {this.state.darkColor === false ? {color: "black"} : {color: "white"}}>Quote Book</h1>
-        <Middle key = {this.resetAnimation()}class = "animate" bgcolor = {this.state.color} randomcolor = {this.randomColor} darkColor = {this.state.darkColor}/>
+        <Middle key = {this.resetAnimation()} bgcolor = {this.state.color} randomcolor = {this.randomColor} darkColor = {this.state.darkColor}/>
         <div key = {this.resetAnimation()} className = "creditsDiv" style = {{backgroundColor: this.state.color}}>
 					<p id = "myName" style = {this.state.darkColor === false ? {color: "black"} : {color: "white"}}>made with <span>❤️</span> by Brandon L.</p>
 
