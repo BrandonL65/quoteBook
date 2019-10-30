@@ -3,9 +3,7 @@ import React from "react"
 export default class Author extends React.Component 
 {
 	resetAnimation = () => {
-		let random = Math.floor(Math.random()*900);
-		return random;
-
+		return Math.floor(Math.random()*900);
 	}
     render() 
     {
